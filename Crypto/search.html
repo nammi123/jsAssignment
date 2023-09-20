@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>cryptoView</title>
+  <link rel="stylesheet" href="crypto.css" />
+  <link rel="stylesheet" href="search.css">
+</head>
+
+<body>
+
+  <nav>
+    <div class="headerDiv">
+      <img src="./images/logo.png" alt="" />
+      <a href="crypto.css">
+        <h1>CryptoView</h1>
+      </a>
+    </div>
+    <a href="search.html">
+      <button>search</button>
+    </a>
+  </nav>
+
+  <div class="searchSectionMainContainer">
+    <div class="searchContaner">
+      <h1>Search...</h1>
+      <form method="GET">
+        <input type="text" name="q" />
+        <input type="submit" value="Search" />
+      </form>
+    </div>
+    <hr />
+    <div class="searchResultContainer" id="searchResultContainer"></div>
+  </div>
+
+  <footer>
+    <p>CryptoView Project</p>
+    <img src="./images/github_logo.png" alt="" />
+  </footer>
+  <script src="search.js"></script>
+</body>
+
+</html>
